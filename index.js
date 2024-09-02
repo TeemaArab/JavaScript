@@ -1,16 +1,33 @@
 
 // if statement . nested if statement
-let age = 23;
-let hasLicense = false;
-if (age >= 16){
-   console.log("You are old enough to drive!")
-   if(hasLicense){
-      console.log(" You also have a driving license to drive.")
-   }
-   else{
-    console.log("Sorry! but you don't have a license to drive")
-   }
+const myText = document.getElementById("myText");
+const mySubmit = document.getElementById("mySubmit");
+const resultElement = document.getElementById("resultElement");
+let age;
+
+mySubmit.onclick = function(){
+    age  = myText.value;
+    age = Number(age);
+    if (age >= 100){
+        
+        resultElement.textContent = `You are too old to enter this site`;
+     }
+
+     else if(age == 0){
+        resultElement.textContent =" You can't enter. You were just born.";
+        
+     }
+     else if(age >= 18 ){
+        resultElement.textContent =" You are old enough to enter this site.";
+     }
+     else if(age < 0 ){
+        resultElement.textContent = " Your age can't be below 0";
+     }
+     else{
+        resultElement.textContent = "You Must be 18+ to enter this site.";
+     }
 }
-else{
-    console.log("You are not old enough to drive");
-}
+
+   
+
+
