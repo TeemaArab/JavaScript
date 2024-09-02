@@ -1,6 +1,4 @@
-// switch replaces many else if statements
-
-let studentScore = 40;
+let studentScore = 100;
 let letterGrade;
 
 switch(true){
