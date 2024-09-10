@@ -49,6 +49,7 @@ console.log(evenNums);
 
 const total = nums.reduce((accumulator, element) => accumulator + element);
 console.log(total);
+
 // function toSquare(){
 //     return Math.pow(element, pow);
 // }
