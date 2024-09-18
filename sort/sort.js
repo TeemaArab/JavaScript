@@ -2,14 +2,14 @@
 //        sorts elements as strings in lexicographic order, not alphabetical
 //        lexicographic = (alphabet + numbers +symbols) as strings
 
-// let fruits =["cherries", "banana", "kiwi", "apple", "pineapple"];
-// fruits.sort();
-// console.log(fruits);
+let fruits =["cherries", "banana", "kiwi", "apple", "pineapple"];
+fruits.sort();
+console.log(fruits);
 
-// let numbers =[1,6,8,9,23,6,90];
-// numbers.sort((a,b) => a-b);  // this function helps us to put numbers in order . 
-//                              //if we want reverse order ,that would be b-a
-// console.log(numbers);
+let numbers =[1,6,8,9,23,6,90];
+numbers.sort((a,b) => a-b);  // this function helps us to put numbers in order . 
+                             //if we want reverse order ,that would be b-a
+console.log(numbers);
 
 const people = [{name:"Reza", age:20, gpa:3.0 },
                {name:"Ali", age:27, gpa:3.45 },
