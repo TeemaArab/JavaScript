@@ -57,4 +57,5 @@ const person3 = new Person("Sam", 45, "5500 Yonge St", "Toronto", "Canada");
 console.log(person1.age);
 console.log(person1.address); // returns the whole address
 //console.log(person1.address.city);
-console.log(person3.address.street);
+console.log(person3.address.street)
+
